@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Text', serif;
+}
+
+body {
+    background: #ff7272;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.login-container {
+    max-width: 600px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+
+
+}
+
+.login-icon {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-icon i {
+    font-size: 50px;
+    color: #ff0000;
+    margin: auto;
+
+}
+h2.login-topic {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button[type="submit"] {
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider .divider-line {
+    border-top: 1px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.divider span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 2;
+    color: #000000;
+}
+
+button.btn-social {
+    background-color: #dadada;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-social i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.signup-link a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button.btn-social:hover {
+    background-color: #ff0000;
+}
+
